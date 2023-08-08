@@ -8,4 +8,5 @@ public class BadRequestException extends HttpStatusCodeException {
     public BadRequestException(String massage){
         super(HttpStatus.BAD_REQUEST, massage);
     }
+
 }
